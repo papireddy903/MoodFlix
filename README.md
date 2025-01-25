@@ -1,5 +1,12 @@
 
 # 🎬 Moodflix
+
+
+## 🙌 Special Thanks
+
+**Inspired by Adrian Hajdin's Tutorial**
+- YouTube Channel: JavaScript Mastery
+
 ## 📋 Project Overview
 Moodflix is a modern movie discovery web application built with React and powered by TMDB and Appwrite.
 
