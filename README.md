@@ -1,13 +1,10 @@
 
 # 🎬 Moodflix
-
 ## 📋 Project Overview
-
 Moodflix is a modern movie discovery web application built with React and powered by TMDB and Appwrite.
 
 ## 🚀 Features
-
-- **Dynamic Movie Search**: Real-time movie lookup
+- **Optimized Movie Search**: Debounced dynamic movie search
 - **Trending Movies**: Discover popular films
 - **Detailed Movie Cards**: Rating, language, year information
 - **Search Analytics**: Track and rank most searched movies
@@ -19,10 +16,8 @@ Moodflix is a modern movie discovery web application built with React and powere
 - ![Tailwind](https://img.shields.io/badge/Tailwind-CSS-blueviolet)
 - ![Appwrite](https://img.shields.io/badge/Appwrite-Backend-red)
 
-## 🛠 Setup & Installation
-
+## 🛠 Setup & Installatio
 ### Prerequisites
-
 - Node.js
 - npm/yarn
 - TMDB API Key
@@ -32,7 +27,7 @@ Moodflix is a modern movie discovery web application built with React and powere
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/moodflix.git
+   git clone https://github.com/papireddy903/moodflix.git
    ```
 
 2. Install dependencies
@@ -44,7 +39,8 @@ Moodflix is a modern movie discovery web application built with React and powere
    ```bash
    VITE_TMDB_API_KEY=your_api_key
    VITE_APPWRITE_PROJECT_ID=your_project_id
-   # Add other environment variables
+   VITE_APPWRITE_DATABASE_ID=your_database_id
+   VITE_APPWRITE_COLLECTION_ID=your_collection_id
    ```
 
 4. Run development server
@@ -52,25 +48,7 @@ Moodflix is a modern movie discovery web application built with React and powere
    npm run dev
    ```
 
-## 🔧 Configuration
-
-### Environment Variables
-
-| Variable | Description | Required |
-|----------|-------------|----------|
-| `VITE_TMDB_API_KEY` | TMDB Authentication Token | Yes |
-| `VITE_APPWRITE_PROJECT_ID` | Appwrite Project ID | Yes |
-| `VITE_APPWRITE_DATABASE_ID` | Appwrite Database ID | Yes |
-
-## 📦 Scripts
-
-- `dev`: Start development server
-- `build`: Production build
-- `preview`: Preview production build
-- `lint`: Run ESLint
-
 ## 🤝 Contributing
-
 1. Fork repository
 2. Create feature branch
 3. Commit changes
