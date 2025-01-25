@@ -1,4 +1,4 @@
-```markdown
+
 # 🎬 Moodflix
 
 ## 📋 Project Overview
@@ -77,7 +77,4 @@ Moodflix is a modern movie discovery web application built with React and powere
 4. Push to branch
 5. Open pull request
 
-## 📄 License
 
-MIT License
-```
